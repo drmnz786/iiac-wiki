@@ -1,0 +1,28 @@
+site_name: IIAC - Munthazar Standard
+site_url: https://iiac.edu
+site_description: International Institute for Autonomous Convergence
+site_author: IIAC
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Article 0: 
+    - Constitution: article-0/constitution.md
+  - Protocol:
+    - Level-0: protocol/level-0.md
+  - Registry: registry/index.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      permalink: true
